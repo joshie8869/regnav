@@ -1,16 +1,16 @@
 /* Reg Navigator PWA shell service worker — caches the shell for installability
    and offline launch; the app itself always goes to the network. */
 'use strict';
-var CACHE = 'regnav-shell-v1';
+var CACHE = 'regnav-shell-v2';
 var SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-512-maskable.png',
-  './icons/apple-touch-icon.png',
-  './icons/favicon-64.png'
+  './icon-192.png',
+  './icon-512.png',
+  './icon-512-maskable.png',
+  './apple-touch-icon.png',
+  './favicon-64.png'
 ];
 
 self.addEventListener('install', function (e) {
