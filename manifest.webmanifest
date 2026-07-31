@@ -1,7 +1,7 @@
 {
   "name": "Reg Navigator",
   "short_name": "RegNav",
-  "description": "Personal regulatory reasoning engine — Fed OSHA, Cal/OSHA, NEC, 70E, ANSI-IBR, NIOSH. Scenario interrogation, photo audits, verbatim eCFR verification.",
+  "description": "Personal regulatory reasoning engine \u2014 Fed OSHA, Cal/OSHA, NEC, 70E, ANSI-IBR, NIOSH. Scenario interrogation, photo audits, verbatim eCFR verification.",
   "id": "/regnav/",
   "start_url": "./index.html",
   "scope": "./",
@@ -10,8 +10,47 @@
   "background_color": "#07090d",
   "theme_color": "#07090d",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New scenario",
+      "short_name": "Scenario",
+      "url": "./index.html?action=new",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Section lookup",
+      "short_name": "Lookup",
+      "url": "./index.html?action=lookup",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

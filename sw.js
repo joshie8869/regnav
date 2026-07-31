@@ -1,7 +1,7 @@
 /* Reg Navigator PWA shell service worker — caches the shell for installability
    and offline launch; the app itself always goes to the network. */
 'use strict';
-var CACHE = 'regnav-shell-v2';
+var CACHE = 'regnav-shell-v3';
 var SHELL = [
   './',
   './index.html',
